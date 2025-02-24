@@ -22,17 +22,17 @@ A pasta contém os seguintes arquivos:
 
 ## Minha Contribuição
 
-A implementação do **analisador de DNA** foi desenvolvida no arquivo `dna.py`, nele, eu tive a responsabilidade de abrir o arquivo CSV, as amostras de sequências e implementar uma lógica que às comparasse e imprimisse um usuário com uma sequência correspondênte à amostra.
+A implementação do **analisador de DNA** foi desenvolvida no arquivo `dna.py`, nele, eu tive a responsabilidade de abrir o arquivo CSV, as amostras de sequências e implementar uma lógica que às comparasse e imprimisse um usuário com uma sequência correspondente à amostra.
 
 ## Como Funciona o Analisador
 
 O projeto analisa uma sequência de DNA e identifica a ocorrência de repetições de padrões STR. O algoritmo segue os seguintes passos:
 
-1. **Leitura do banco de dados:**: Os perfis genéticos são carregados a partir do arquivo CSV.
+1. **Leitura do banco de dados**: Os perfis genéticos são carregados a partir do arquivo CSV.
 2. **Leitura da sequência de DNA**: O arquivo contendo a sequência genética é processado.
 3. **Cálculo das repetições STR**: O código identifica a maior sequência contínua de cada STR presente no banco de dados.
 4. **Comparação com os perfis**: O programa verifica se há uma correspondência exata com algum indivíduo na base de dados.
-5. **Exibição do resultado**:Se um perfil for encontrado, o nome do indivíduo é exibido. Caso contrário, o programa retorna "No match".
+5. **Exibição do resultado**: Se um perfil for encontrado, o nome do indivíduo é exibido. Caso contrário, o programa retorna "No match".
 
 ## Instalação e Execução
 
@@ -51,6 +51,7 @@ O projeto analisa uma sequência de DNA e identifica a ocorrência de repetiçõ
 
 
 Certifique-se de que possui **Python 3** instalado no seu ambiente.
+Sinta-se livre para experimentar o programa com outras sequencias
 
 ## Contato
 Caso tenha dúvidas ou sugestões, entre em contato através do meu [LinkedIn](www.linkedin.com/in/alvaro-sena), [GitHub](https://github.com/Alvaro-Sena) ou [WhatsApp](https://wa.me/447356040385).
